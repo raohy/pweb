@@ -5,7 +5,6 @@
   <div class="md-container">
     <v-md-preview :text="filterContentByDate"></v-md-preview>
   </div>
-
 </template>
 
 <script>
@@ -77,8 +76,8 @@ export default {
   methods: {
     async fetchMarkdown() {
       try {
-        this.url = this.path ? this.path : this.$route.params.path;
-        // const response = await axios.get(`http://127.0.0.1:5000/post/${this.$route.params.path}`);
+        this.url = this.path ? this.path : this.$route.params.pathMatch;
+        console.log(this.$route.params.pathMatch)
         const response = await axios.get(`http://8.134.239.98:80/post/${this.url}`);
         this.markdownContent = response.data;
       } catch (error) {
@@ -100,7 +99,7 @@ export default {
     else {
       this.title = this.url
     }
-    this.updateData(this.title.replace(/%\^/g, '/'));
+    this.updateData(this.title.slice(0,-3));
     }
 };
 </script>

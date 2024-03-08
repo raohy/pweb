@@ -1,0 +1,96 @@
+2024-03-08 11:28:09,834 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-03-08 11:28:25,721 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 11:28:25] "GET /list/archive HTTP/1.1" 200 -
+2024-03-08 11:32:24,166 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-03-08 11:43:02,972 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 11:43:02] "GET /list/category HTTP/1.1" 200 -
+2024-03-08 11:43:36,874 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-03-08 11:43:39,295 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 11:43:39] "GET /list/category HTTP/1.1" 200 -
+2024-03-08 12:01:20,284 - app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\raoho\OneDrive\Desktop\pweb\flask\app.py", line 54, in home
+    return render_template('index.html')
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\flask\templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\flask\templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\flask\templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2024-03-08 12:01:20,295 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:01:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-08 12:01:26,046 - app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\raoho\OneDrive\Desktop\pweb\flask\app.py", line 54, in home
+    return render_template('index.html')
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\flask\templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\flask\templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\raoho\anaconda3\envs\flask_pweb\lib\site-packages\flask\templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2024-03-08 12:01:26,049 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:01:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-08 12:01:26,173 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:01:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-03-08 12:02:24,160 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:02:24] "[33mGET /123 HTTP/1.1[0m" 404 -
+2024-03-08 12:02:35,106 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-03-08 12:02:39,186 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:02:39] "[33mGET /123 HTTP/1.1[0m" 404 -
+2024-03-08 12:02:43,753 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:02:43] "GET / HTTP/1.1" 200 -
+2024-03-08 12:02:43,767 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:02:43] "[33mGET /assets/index-28d1d02c.js HTTP/1.1[0m" 404 -
+2024-03-08 12:02:43,770 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:02:43] "[33mGET /assets/index-220a2160.css HTTP/1.1[0m" 404 -
+2024-03-08 12:02:58,246 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-03-08 12:03:00,554 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:00] "GET / HTTP/1.1" 200 -
+2024-03-08 12:03:00,586 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:00] "GET /assets/index-220a2160.css HTTP/1.1" 200 -
+2024-03-08 12:03:00,758 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:00] "GET /assets/index-28d1d02c.js HTTP/1.1" 200 -
+2024-03-08 12:03:00,863 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:00] "GET /assets/pimage-718c5b8d.jpg HTTP/1.1" 200 -
+2024-03-08 12:03:00,864 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:00] "GET /assets/HomeView-e752a7fc.css HTTP/1.1" 200 -
+2024-03-08 12:03:00,870 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:00] "GET /assets/HomeView-07ec51b8.js HTTP/1.1" 200 -
+2024-03-08 12:03:09,561 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:09] "GET /assets/CategoryView-fb5d88aa.css HTTP/1.1" 200 -
+2024-03-08 12:03:09,566 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:09] "GET /assets/CategoryView-5090eaef.js HTTP/1.1" 200 -
+2024-03-08 12:03:09,573 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:09] "GET /assets/axios-28bc18a3.js HTTP/1.1" 200 -
+2024-03-08 12:03:54,197 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:54] "GET / HTTP/1.1" 200 -
+2024-03-08 12:03:54,216 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:54] "GET /assets/index-220a2160.css HTTP/1.1" 200 -
+2024-03-08 12:03:54,218 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:54] "[36mGET /assets/index-28d1d02c.js HTTP/1.1[0m" 304 -
+2024-03-08 12:03:54,300 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:54] "GET /assets/pimage-718c5b8d.jpg HTTP/1.1" 200 -
+2024-03-08 12:03:54,306 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:54] "[36mGET /assets/CategoryView-5090eaef.js HTTP/1.1[0m" 304 -
+2024-03-08 12:03:54,307 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:54] "GET /assets/CategoryView-fb5d88aa.css HTTP/1.1" 200 -
+2024-03-08 12:03:54,309 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:54] "GET /assets/axios-28bc18a3.js HTTP/1.1" 200 -
+2024-03-08 12:03:58,483 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:58] "GET / HTTP/1.1" 200 -
+2024-03-08 12:03:58,552 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:58] "[36mGET /assets/index-220a2160.css HTTP/1.1[0m" 304 -
+2024-03-08 12:03:58,559 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:58] "[36mGET /assets/index-28d1d02c.js HTTP/1.1[0m" 304 -
+2024-03-08 12:03:58,669 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:58] "[36mGET /assets/pimage-718c5b8d.jpg HTTP/1.1[0m" 304 -
+2024-03-08 12:03:58,671 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:58] "[36mGET /assets/HomeView-e752a7fc.css HTTP/1.1[0m" 304 -
+2024-03-08 12:03:58,671 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:58] "[36mGET /assets/HomeView-07ec51b8.js HTTP/1.1[0m" 304 -

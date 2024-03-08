@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="7a3f619d-cad9-455b-9732-60f8f85ff283" name="pweb">
+      <webServer id="1387b9a8-2fa3-4e06-8608-505072348fd4" name="pweb">
         <fileTransfer rootFolder="/home" accessType="SFTP" host="8.134.239.98" port="1022" sshConfigId="c4aee940-bf3a-4890-903c-88b1aa552b26" sshConfig="root@8.134.239.98:1022 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />

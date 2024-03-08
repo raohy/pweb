@@ -20,7 +20,6 @@ export default defineComponent({
 </script>
 
 <template>
-<!--  <h1>test home vie2</h1>-->
   <main>
     这是我的生活碎片，我不想让它丢失在时间之中
   </main>

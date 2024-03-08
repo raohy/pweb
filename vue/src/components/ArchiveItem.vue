@@ -24,7 +24,7 @@
     <h4>{{year}}</h4>
     <el-timeline>
       <el-timeline-item v-for="(post,index) in this.items[year]" :key="index" :timestamp="post.posted_time.substring(post.posted_time.indexOf('-')+1)">
-          <h4 class="post-title" @click="handleTitleClick(post)">{{post.title}}</h4>
+          <h4 class="post-title" @click="handleTitleClick(post)">{{post.title.slice(0,-3)}}</h4>
       </el-timeline-item>
     </el-timeline>
   </div>
@@ -50,9 +50,7 @@ export default defineComponent({
   methods: {
     handleTitleClick(post:any) {
       console.log(post.path.substring(1, post.path.length))
-      let a='/post/'+ post.path.substring(7).replace(/\\/g, '%^').slice(0,-3)
-      console.log(a)
-      this.$router.push({path:a });
+      this.$router.push({path: '/post/'+ post.path.substring(7) });
     }
     // sortedKey() {
     //   this.yearsList = Object.keys(this.items).sort((a, b) => b - a);

@@ -1,0 +1,1 @@
+import{d as u,_ as t,o,c as a}from"./index-65b7162c.js";const n=u({name:"HomeView",methods:{updateData(e){this.$store.commit("navi",e)}},mounted(){this.updateData("Home")}});function s(e,_,c,m,d,i){return o(),a("main",null," 这是我的生活碎片，我不想让它丢失在时间之中 ")}const r=t(n,[["render",s],["__scopeId","data-v-197f5794"]]);export{r as default};

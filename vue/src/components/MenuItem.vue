@@ -47,7 +47,7 @@
           <div v-for="post in item.files" class="post-detail">
             <font-awesome-icon :icon="['far', 'file']" class="file-far-icon" />
             <span class ="post-title" @click="handleClick(item,post)">
-              {{ post.title }}
+              {{ post.title.slice(0,-3) }}
             </span>
             <span class="dash"></span>
             <span class="post-time">
@@ -87,17 +87,7 @@ export default {
       return !!this.openDirectories[dirTitle];
     },
     handleClick(item,post) {
-      //http://localhost:5173/post/%E5%89%8D%E7%AB%AF/Vue%20dafeea1ce81140779bfaa316550ef584.md
-      // if (!item.children && item.type==='file') {
-      console.log(item.path.substring(1,item.path.length))
-      // this.$router.push({ path: item.path.replace(/\//g,'\\')});
-      // this.$router.push({ path: '/post/'+item.path.replace(/\//g, '%^')});
-      // this.$router.push({ path: '/post/'+item.path.replace(/\//g, '%^')+'/'+post});
-      this.$router.push({ path: '/post/'+(item.path.substring(7)+'/'+post.title.slice(0, -3)).replace(/\//g, '%^')});
-
-      // } else if (!item.children) {
-      //   this.fetchChildren(item);
-      // }
+      this.$router.push({ path: '/post/'+(item.path.substring(7)+'/'+post.title)});
     },
     async fetchChildren(item) {
       try {

@@ -31,7 +31,7 @@ export default {
   methods: {
     async fetchTimeItems() {
       try {
-        const response = await axios.get('http://8.134.239.98:80/list/archive');
+        const response = await axios.get('https://raohy.com/list/archive');
 
         if (response.status===200) {
           this.archiveItems = response.data; // Assign the response to the menus data property

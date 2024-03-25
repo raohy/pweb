@@ -3,7 +3,7 @@
 
 <template>
   <div class="md-container">
-    <v-md-preview :text="filterContentByDate"></v-md-preview>
+    <v-md-preview :text="filterContentByDate" :include-level="[1, 2]"></v-md-preview>
   </div>
 </template>
 
@@ -44,9 +44,8 @@ export default {
       return headers;
     },
     filterContentByDate() {
-      console.log(this.date)
 
-      if (this.date){
+      if (!this.markdownContent){
         const lines = this.markdownContent.split('\n');
         let contentForSelectedDate = '';
         let capture = false;
@@ -78,8 +77,9 @@ export default {
       try {
         this.url = this.path ? this.path : this.$route.params.pathMatch;
         console.log(this.$route.params.pathMatch)
-        const response = await axios.get(`http://8.134.239.98:80/post/${this.url}`);
+        const response = await axios.get(`https://raohy.com/post/${this.url}`);
         this.markdownContent = response.data;
+        console.log(this.markdownContent)
       } catch (error) {
         console.error(error);
       }

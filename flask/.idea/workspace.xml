@@ -5,21 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4ec2840-339e-45dd-b309-f07a5224b64a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/flask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flask_pweb.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencies/Post.py" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/Post.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencies/Postdetail.py" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/Postdetail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vue/src/components/ArchiveItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/src/components/ArchiveItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/flask.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/flask.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/windows反汇编/Crackme160.md" beforeDir="false" afterPath="$PROJECT_DIR$/post/windows反汇编/Crackme160.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../update_log.md" beforeDir="false" afterPath="$PROJECT_DIR$/../update_log.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vue/src/components/MenuItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/src/components/MenuItem.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vue/src/components/ReadMd.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/src/components/ReadMd.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vue/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vue/src/views/LeetView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/src/views/LeetView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/src/views/ArchiveView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/src/views/ArchiveView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/src/views/CategoryView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/src/views/CategoryView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +75,31 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Flask (app.py)" type="Python.FlaskServer" nameIsGenerated="true">
+      <option name="flaskDebug" value="true" />
       <module name="flask" />
       <option name="target" value="C:\Users\raoho\OneDrive\Desktop\pweb\flask\app.py" />
       <option name="targetType" value="PATH" />
@@ -93,6 +115,15 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Flask server.Flask (app.py)" />
+      <item itemvalue="Python.app" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -107,7 +138,15 @@
       <workItem from="1709257301336" duration="7000" />
       <workItem from="1709800849394" duration="1166000" />
       <workItem from="1709860814651" duration="371000" />
-      <workItem from="1709861206433" duration="4215000" />
+      <workItem from="1709861206433" duration="6063000" />
+      <workItem from="1709890095533" duration="4511000" />
+      <workItem from="1710125270178" duration="55000" />
+      <workItem from="1710919675569" duration="3122000" />
+      <workItem from="1710987430612" duration="12000" />
+      <workItem from="1711006310691" duration="3335000" />
+      <workItem from="1711016022659" duration="1358000" />
+      <workItem from="1711068592552" duration="2711000" />
+      <workItem from="1711328716124" duration="1409000" />
     </task>
     <servers />
   </component>
@@ -115,6 +154,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/flask$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1709870577236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flask$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1709899317682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flask$app.coverage" NAME="app Coverage Results" MODIFIED="1709899371678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

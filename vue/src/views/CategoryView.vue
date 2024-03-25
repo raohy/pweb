@@ -32,7 +32,8 @@ export default {
     async fetchTopLevelMenuItems() {
       try {
         // const response = await axios.get('http://127.0.0.1:5000/list/category',{params:{path:''}});
-        const response = await axios.get('http://8.134.239.98:80/list/category');
+        const response = await axios.get('https://raohy.com/list/category');
+        // const response = await axios.get('http://8.134.239.98:443/list/category');
 
         if (response.status===200) {
           this.menuItems = response.data; // Assign the response to the menus data property

@@ -9,6 +9,6 @@
     }
   ],
   "compilerOptions": {
-    "strict": false
+    "strict": false,
   }
 }

@@ -94,3 +94,102 @@ jinja2.exceptions.TemplateNotFound: index.html
 2024-03-08 12:03:58,669 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:58] "[36mGET /assets/pimage-718c5b8d.jpg HTTP/1.1[0m" 304 -
 2024-03-08 12:03:58,671 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:58] "[36mGET /assets/HomeView-e752a7fc.css HTTP/1.1[0m" 304 -
 2024-03-08 12:03:58,671 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:03:58] "[36mGET /assets/HomeView-07ec51b8.js HTTP/1.1[0m" 304 -
+2024-03-08 12:14:29,427 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:14:29] "GET / HTTP/1.1" 200 -
+2024-03-08 12:14:29,439 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:14:29] "[36mGET /assets/index-220a2160.css HTTP/1.1[0m" 304 -
+2024-03-08 12:14:29,440 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:14:29] "[36mGET /assets/index-28d1d02c.js HTTP/1.1[0m" 304 -
+2024-03-08 12:14:29,601 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:14:29] "[36mGET /assets/pimage-718c5b8d.jpg HTTP/1.1[0m" 304 -
+2024-03-08 12:14:29,603 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:14:29] "[36mGET /assets/HomeView-e752a7fc.css HTTP/1.1[0m" 304 -
+2024-03-08 12:14:29,604 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 12:14:29] "[36mGET /assets/HomeView-07ec51b8.js HTTP/1.1[0m" 304 -
+2024-03-08 17:36:51,519 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-03-08 19:35:48,107 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-03-08 19:35:55,251 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-03-08 19:36:13,275 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2024 19:36:13] code 400, message Bad request version ('mâ\x9fD\x9b.þ)\x87')
+2024-03-08 19:36:13,276 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:36:13] "[35m[1m: 6¸nâ#>ñÐ. +ý´»Ô§1¼tlÙ´<åA?u7gª mâD.þ)[0m" HTTPStatus.BAD_REQUEST -
+2024-03-08 19:36:13,276 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2024 19:36:13] code 400, message Bad request version ('ÃÂÃ')
+2024-03-08 19:36:13,278 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:36:13] "[35m[1m: 6©.!¾Ä¯0×äì+KxãùkíÕýì1«sé Ý2¡éãLãÇ®$a®Q2%·8ÒxkcÕ  **À+À/À,À0Ì©Ì¨ÀÀ   / 5 Í::     þ   ?  Ã¯Eæ¯üªX@'.bÏÇ)µÑôe ðÊ3ÝÙç"UÙâ1»ã¾µBu,@$b3^q]Bö½ÜÕ[ÀöÒ|Ü *¹ð1©ÑaJÞªN	Ý#s@9¬ªi°. wíFÞ¶ç2ÍRëBÏýãÆËGYdÕQÐø{mXW~B,*Ê`Ý ª,ïÅ%ÃÂÃ[0m" HTTPStatus.BAD_REQUEST -
+2024-03-08 19:36:13,278 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2024 19:36:13] code 400, message Bad request version ('.É³z\x07¶\x10·µØ*ebm\x00°\x82^k\x9a´\x16ÙèFïSq8ÈT\x83')
+2024-03-08 19:36:13,278 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:36:13] "[35m[1m  üíoæª~6òÿsÃUè¨dS+"=+-»¨ ÂE_²ÉàÜÒïõ++~Y {d& ñSf-a:û  ÚÚÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 **   -  + ::   þ Ú   ­  ß?\6RÎÖ¿ª{.É³z¶·µØ*ebm °^k´ÙèFïSq8ÈT[0m" HTTPStatus.BAD_REQUEST -
+2024-03-08 19:36:13,279 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2024 19:36:13] code 400, message Bad request version ('é\x00')
+2024-03-08 19:36:13,279 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:36:13] "[35m[1m  üÎóÙÂ.[ÔÏÇqå5¾ÊýqÐ¡è~ð¿j­m+ª ê$5:úÃ7äÏQFañ¸Ø©/d£À¯± é  [0m" HTTPStatus.BAD_REQUEST -
+2024-03-08 19:36:21,616 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:36:21] "GET / HTTP/1.1" 200 -
+2024-03-08 19:36:21,640 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:36:21] "[36mGET /assets/index-220a2160.css HTTP/1.1[0m" 304 -
+2024-03-08 19:36:21,822 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:36:21] "GET /assets/index-65b7162c.js HTTP/1.1" 200 -
+2024-03-08 19:36:21,955 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:36:21] "[36mGET /assets/pimage-718c5b8d.jpg HTTP/1.1[0m" 304 -
+2024-03-08 19:36:21,956 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:36:21] "GET /assets/HomeView-5664a82a.css HTTP/1.1" 200 -
+2024-03-08 19:36:21,962 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:36:21] "GET /assets/HomeView-52fee64d.js HTTP/1.1" 200 -
+2024-03-08 19:36:30,791 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:36:30] "GET /flying.ico HTTP/1.1" 200 -
+2024-03-08 19:40:48,471 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:40:48] "GET / HTTP/1.1" 200 -
+2024-03-08 19:40:48,495 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:40:48] "[36mGET /assets/index-220a2160.css HTTP/1.1[0m" 304 -
+2024-03-08 19:40:48,496 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:40:48] "[36mGET /assets/index-65b7162c.js HTTP/1.1[0m" 304 -
+2024-03-08 19:40:48,663 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:40:48] "[36mGET /assets/pimage-718c5b8d.jpg HTTP/1.1[0m" 304 -
+2024-03-08 19:40:48,666 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:40:48] "[36mGET /assets/HomeView-5664a82a.css HTTP/1.1[0m" 304 -
+2024-03-08 19:40:48,667 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:40:48] "[36mGET /assets/HomeView-52fee64d.js HTTP/1.1[0m" 304 -
+2024-03-08 19:41:50,086 - werkzeug - INFO -  * Restarting with stat
+2024-03-08 19:41:51,027 - werkzeug - INFO -  * Debugger PIN: 880-499-979
+2024-03-08 19:41:51,131 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-03-08 19:41:51,131 - werkzeug - INFO -  * Running on http://26.26.26.1:443/ (Press CTRL+C to quit)
+2024-03-08 19:42:00,971 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:42:00] "GET / HTTP/1.1" 200 -
+2024-03-08 19:42:01,000 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:42:01] "GET /assets/index-220a2160.css HTTP/1.1" 200 -
+2024-03-08 19:42:01,002 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:42:01] "GET /assets/index-65b7162c.js HTTP/1.1" 200 -
+2024-03-08 19:42:01,168 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:42:01] "GET /assets/pimage-718c5b8d.jpg HTTP/1.1" 200 -
+2024-03-08 19:42:01,171 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:42:01] "GET /assets/HomeView-5664a82a.css HTTP/1.1" 200 -
+2024-03-08 19:42:01,172 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:42:01] "GET /assets/HomeView-52fee64d.js HTTP/1.1" 200 -
+2024-03-08 19:42:01,209 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:42:01] "GET /flying.ico HTTP/1.1" 200 -
+2024-03-08 19:42:07,575 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2024 19:42:07] code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Í::\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00#\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+2024-03-08 19:42:07,576 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:42:07] "[35m[1m: 6m!D1âbkðLtÝê¼Ffð±¶×Cô &øuFÒE¬ê¬tEÃS¬¯ý77¹|¶~0  ÊÊÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 Í::     ÿ   #      [0m" HTTPStatus.BAD_REQUEST -
+2024-03-08 19:42:07,577 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2024 19:42:07] code 400, message Bad request version ('\x11:®3$Ç\x86\x91î\x076È<\x98{º´²©\\\x00Ð©üºÌ\x16twHÔA"»:½é#Â\x9bÆ&dt`SØ#å&0n')
+2024-03-08 19:42:07,577 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:42:07] "[35m[1m ©µ½üájRSÚ^¢¡ö9¬ØþùT@?î ^Yå<Ý®_u¨Ð)×Ur*'rvÓhSKW  ººÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 ­jj  þ ú     ÑXÞÍ^ô«¾:®3$Çî6È<{º´²©\ Ð©üºÌtwHÔA"»:½é#ÂÆ&dt`SØ#å&0n[0m" HTTPStatus.BAD_REQUEST -
+2024-03-08 19:42:07,578 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2024 19:42:07] code 400, message Bad request version ('³æ\\M\xad\x11\x91-*\x13\x83ãý\x9eáøà\x9fÍ\x80ÝúÎÜ\x14I')
+2024-03-08 19:42:07,579 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:42:07] "[35m[1m  üÒéõ××êÀj«JRîï~_TÓÁÅ>Í¥úÔðzF p#oîóä=|_©IiÃ£±Õ%]Êv$¢b  jjÀ+À/À,À0Ì©Ì¨ÀÀ   / 5          +  -    h2http/1.1þ Ú   {  kZÏ·Öþ:´ýDýÔ±îÚéo1fúêöN\ ° ð£å¤D2ë(*5õ_#èÙXt21Æ4 ¹àîåÉ	lTÁ³u °f'fÞ³kâ|ÙWÄ,/Þä[g_·ô¬¹ªEöì¡µ ï9?è¾Á¬~âë?à¥I´HÊmëÀ *	Ú² ³æ\M­-*ãýáøàÍÝúÎÜI[0m" HTTPStatus.BAD_REQUEST -
+2024-03-08 19:42:07,580 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2024 19:42:07] code 400, message Bad request version ('§ñÒ²Qè\x92ôD(\x95~\x02x¬·ç\x06Sq')
+2024-03-08 19:42:07,581 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:42:07] "[35m[1m: 6D~ÔÿºyqÙÀ9úÆûüA'{LÔo&9_×yi ÀØ6yç}6òÎ«LûÅ#9¡Ñ;¬PÄ/Â  ªªÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 Íúú   3 + )zz     ÿÉÛuÚt_à4mlf³{:+è)$-1vPnVu       -    ÿ   #     h2http/1.1 + ºº         þ   I  {ùð{»äÚc¿ùõãa*Õs 6\xNcg5 ðÈøÉÏ>å}^y_ânþ¼¢¡op,F%nßýg¹åÔtª#ÓÍ§ñÒ²QèôD(~x¬·çSq[0m" HTTPStatus.BAD_REQUEST -
+2024-03-08 19:42:36,650 - werkzeug - INFO -  * Restarting with stat
+2024-03-08 19:42:37,646 - werkzeug - INFO -  * Debugger PIN: 880-499-979
+2024-03-08 19:42:37,724 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-03-08 19:42:37,725 - werkzeug - INFO -  * Running on http://26.26.26.1:443/ (Press CTRL+C to quit)
+2024-03-08 19:42:48,525 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2024 19:42:48] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03;èJ¬ûGVÒ\x7fÖ')
+2024-03-08 19:42:48,526 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:42:48] "[35m[1m  ü;èJ¬ûGVÒÖú?ª[0m" HTTPStatus.BAD_REQUEST -
+2024-03-08 19:42:48,526 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2024 19:42:48] code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+2024-03-08 19:42:48,527 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:42:48] "[35m[1m  üÐáã3½<ÉDXfbÿ¬zâYÀÒt»°Ò< *9Q?½¦f¶!,;¸ëmOwl ïÜRÈgØ  jjÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+2024-03-08 19:42:48,529 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2024 19:42:48] code 400, message Bad request version ('\x02h2\x08http/1.1\x00-\x00\x02\x01\x01\x00#\x00\x00\x003\x00+\x00)')
+2024-03-08 19:42:48,529 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2024 19:42:48] code 400, message Bad request version ('\x98û·')
+2024-03-08 19:42:48,530 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:42:48] "[35m[1m  ü¼"z)´­¶¬GhðS»#øú;"&ámy+ïx ¥£tWÔsCÂc¢ãR¸3R}FcB@'ÛåAï  ººÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 ZZ  þ Ú     {4¹É*,02¹4ÜE¬±iÝ*éç=v °òÎf~%¢:ùSDájIÍèíXW&ìX:ï9ÙìË?^µPÜ1ÿÉ N®{ØÕ¾ôæ:¹%Í³FR2­Ç¥¦çñ%Õ´'pæ)gGÌ¶ÖàZeÎÃ¢¦z}éÛÌ$¶F£(XåWrÂÓÃÉÁM7hr+lÜpÖÛÕ­¦'«\Ká5,WLà&sìeeÄs}þcèBX          + ZZ   h2http/1.1 -  #   3 + )[0m" HTTPStatus.BAD_REQUEST -
+2024-03-08 19:42:48,530 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:42:48] "[35m[1m: 6 ·âÿâJ¥ØÁµè¸J)¿K,	U»¨Þ'X û·[0m" HTTPStatus.BAD_REQUEST -
+2024-03-08 19:45:52,830 - werkzeug - INFO -  * Detected change in 'C:\\Users\\raoho\\OneDrive\\Desktop\\pweb\\flask\\app.py', reloading
+2024-03-08 19:45:52,876 - werkzeug - INFO -  * Restarting with stat
+2024-03-08 19:45:53,836 - werkzeug - INFO -  * Debugger PIN: 880-499-979
+2024-03-08 19:45:53,915 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-03-08 19:45:53,915 - werkzeug - INFO -  * Running on http://26.26.26.1:443/ (Press CTRL+C to quit)
+2024-03-08 19:48:33,764 - werkzeug - INFO -  * Restarting with stat
+2024-03-08 19:48:34,719 - werkzeug - INFO -  * Debugger PIN: 880-499-979
+2024-03-08 19:48:34,797 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-03-08 19:48:34,798 - werkzeug - INFO -  * Running on http://26.26.26.1:443/ (Press CTRL+C to quit)
+2024-03-08 19:53:05,190 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2024 19:53:05] code 400, message Bad request version ("¿üþ¨Moy&£D\x81¶:B\x9dq\x9bäö\x9b¾¡Ú¯èÔ¨\x8b\x11ðqõ\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+2024-03-08 19:53:05,190 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 19:53:05] "[35m[1m- ){*`Y©×ÅÜ/¼!ßgiÏpk/\';)j¦Î ¿üþ¨Moy&£D¶:Bqäö¾¡Ú¯èÔ¨ðqõ >À,À0 Ì©Ì¨ÌªÀ+À/ À$À( kÀ#À' gÀ[0m" HTTPStatus.BAD_REQUEST -
+2024-03-08 19:58:59,339 - werkzeug - INFO -  * Restarting with stat
+2024-03-08 19:59:00,307 - werkzeug - INFO -  * Debugger PIN: 880-499-979
+2024-03-08 19:59:00,385 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-03-08 19:59:00,385 - werkzeug - INFO -  * Running on http://26.26.26.1:443/ (Press CTRL+C to quit)
+2024-03-08 20:01:29,254 - werkzeug - INFO -  * Restarting with stat
+2024-03-08 20:01:30,209 - werkzeug - INFO -  * Debugger PIN: 880-499-979
+2024-03-08 20:01:30,290 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-03-08 20:01:30,290 - werkzeug - INFO -  * Running on http://26.26.26.1:443/ (Press CTRL+C to quit)
+2024-03-08 20:01:58,693 - werkzeug - INFO -  * Restarting with stat
+2024-03-08 20:01:59,639 - werkzeug - INFO -  * Debugger PIN: 880-499-979
+2024-03-08 20:01:59,708 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-03-08 20:02:52,205 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-03-08 20:02:52,206 - werkzeug - INFO -  * Running on https://26.26.26.1:443/ (Press CTRL+C to quit)
+2024-03-08 20:03:57,102 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 20:03:57] "GET / HTTP/1.1" 200 -
+2024-03-08 20:03:57,347 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 20:03:57] "GET /assets/index-220a2160.css HTTP/1.1" 200 -
+2024-03-08 20:03:57,758 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 20:03:57] "GET /assets/index-65b7162c.js HTTP/1.1" 200 -
+2024-03-08 20:03:58,001 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 20:03:58] "GET /assets/HomeView-5664a82a.css HTTP/1.1" 200 -
+2024-03-08 20:03:58,475 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 20:03:58] "GET /assets/pimage-718c5b8d.jpg HTTP/1.1" 200 -
+2024-03-08 20:03:58,477 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 20:03:58] "GET /assets/HomeView-52fee64d.js HTTP/1.1" 200 -
+2024-03-08 20:03:58,488 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2024 20:03:58] "GET /flying.ico HTTP/1.1" 200 -

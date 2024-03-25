@@ -32,4 +32,19 @@ a,
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
+
+  blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    border-left: 5px solid #eee;
+    background-color: #f6f6f6;
+    color: #666;
+  }
+
+  code {
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-family: monospace;
+  }
 }

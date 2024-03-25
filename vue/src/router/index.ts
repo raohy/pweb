@@ -31,7 +31,7 @@ const router = createRouter({
     {
       path: '/post/:pathMatch(.*)',
       name: 'post',
-      component: () => import('../components/ReadMd.vue')
+      component: () => import('../views/MdView.vue')
     }
   ]
 })

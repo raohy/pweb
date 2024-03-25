@@ -91,7 +91,7 @@ export default {
     },
     async fetchChildren(item) {
       try {
-        const response = await axios.get('http://8.134.239.98:80/list/category',{params:{path:item.path}});
+        const response = await axios.get('https://raohy.com/list/category',{params:{path:item.path}});
         if (response.status===200) {
           item.children = response.data.items;
         } else {

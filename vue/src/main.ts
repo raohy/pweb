@@ -35,22 +35,23 @@ import 'element-plus/dist/index.css'
 
 
 //注册 v-md-eidtor 组件
-import VMdPreview from '@kangc/v-md-editor/lib/preview';
-import '@kangc/v-md-editor/lib/style/preview.css';
-import githubTheme from '@kangc/v-md-editor/lib/theme/github.js';
-import '@kangc/v-md-editor/lib/theme/style/github.css';
-
-import hljs from 'highlight.js';
-
+// import VMdPreview from '@kangc/v-md-editor/lib/preview';
+// import '@kangc/v-md-editor/lib/style/preview.css';
+// import githubTheme from '@kangc/v-md-editor/lib/theme/github.js';
+// import '@kangc/v-md-editor/lib/theme/style/github.css';
 // Import the necessary components from Element Plus
 // import { ElTimeline, ElTimelineItem } from 'element-plus';
+// VueMarkdownEditor.use(vuepressTheme);
 
-
-VMdPreview.use(githubTheme, {
-    Hljs: hljs,
-});
+import hljs from 'highlight.js';
+// VMdPreview.use(githubTheme, {
+//     Hljs: hljs,
+// }, {config: {
+//     toc: {
+//         includeLevel: [1, 2],
+//     },
+// },});
 const app = createApp(App)
-
 app.use(store)
 app.use(createPinia())
 app.use(ElementPlus)
@@ -58,5 +59,5 @@ app.use(router)
 // app.component(ElTimeline.name, ElTimeline);
 // app.component(ElTimelineItem.name, ElTimelineItem);
 app.component('font-awesome-icon', FontAwesomeIcon)
-app.use(VMdPreview)
+// app.use(VMdPreview)
 app.mount('#app')

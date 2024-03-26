@@ -6,7 +6,7 @@
       <ParseMd :markdownContent="markdownContent"  @update:toc="toc = $event"></ParseMd>
     </div>
     <div class="toc-container">
-      <ToC :toc="toc" ></ToC>
+      <ToC :toc="toc" :is-toc-hide="this.info['content']"></ToC>
     </div>
   </div>
 </template>
@@ -27,7 +27,8 @@ export default {
       markdownContent: '',
       url:'',
       title:'',
-      toc:[]
+      toc:[],
+      info:[]
     };
   },
   watch: {
@@ -87,10 +88,10 @@ export default {
       const lines = this.markdownContent.split('\n');
       // console.log(lines)
       const indexes: number[] = [];
-      let info=[]
       function findFirstTwoIndexes(arr: string[], prefix: string): DesType {
         let details:DesType = {}
         const prefixRegex = new RegExp(`^${prefix}`);
+        const regex = /(\w+)[\:：](.+)/;
         for (let i = 0; i < arr.length; i++) {
           if (prefixRegex.test(arr[i])){
             indexes.push(i);
@@ -100,35 +101,30 @@ export default {
                 break;
               }
               else{
-                let [key, value] = lines[j].split(': ');
-                details[key] = value;
+                const [space, key, value] = lines[j].match(regex);
+                console.log(lines[j].match(regex))
+                details[key.trim()] = value.trim();
               }
             }
             break;
-          //   indexes.push(i);
-          //   if (indexes.length === 2) {
-          //     break; // Exit the loop early once two matches are found
-          //   }
-          // else{
-          //
-          //   }
           }
         }
+        if (details['content'] === undefined) {
+          details['content'] = true;
+        }
+
         return details;
       }
       // <br/>
-      // debugger
-      let details = findFirstTwoIndexes(lines,'---')
-      info=lines.slice(indexes[0],indexes[1])
+      this.info = findFirstTwoIndexes(lines,'---')
       lines.splice(indexes[0],indexes[1]-indexes[0])
-      let post = `##### 发布:${details['posted']} 更新:${details['updated']}`;
+      let post = `##### 发布:${this.info['posted']} 更新:${this.info['updated']}`;
       // let update = `###### 更新:${details['updated']}`;
       lines.splice(indexes[0]+1, 0, post);
       // lines.splice(indexes[0]+2, 0, update);
       lines.splice(indexes[0]+2, 0, '<br/>');
       this.markdownContent=lines.join("\n")
-      console.log(this.markdownContent)
-      return info
+      console.log(this.info)
     },
     updateData(value) {
       this.$store.commit('navi', value);

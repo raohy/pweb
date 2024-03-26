@@ -1,7 +1,7 @@
 
 
 <template>
-  <nav>
+  <nav :class="{'nav-hide': getNavShown(isTocHide)}">
     <ul>
       <li v-for="item in toc" :key="`link-${item.id}`">
         <button @click="scrollToSection(item.id)" :class="['btn', getClassByLevel(item.level)]">{{ item.text }}</button>
@@ -12,7 +12,11 @@
 
 <script>
 export default {
-  props: ['toc'],
+  props: ['toc','isTocHide'],
+  data() {
+    return {
+    };
+  },
   methods:{
 
     scrollToSection(sectionId) {
@@ -33,6 +37,9 @@ export default {
         default:
           return '';
       }
+    },
+    getNavShown(tocshow){
+      return tocshow === "no";
     }
   }
 };
@@ -54,6 +61,9 @@ nav {
   /*border: 1px solid #ccc;*/
   /*box-shadow: 0 2px 5px rgba(0,0,0,0.2);*/
   overflow-x: hidden;
+}
+.nav-hide {
+  visibility: hidden;
 }
 ul {
   display:flex;
